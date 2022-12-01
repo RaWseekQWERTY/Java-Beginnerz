@@ -12,9 +12,9 @@ public class Addition
     sum= sum(x,y);
     System.out.println("The sum is:"+sum);
 }
-public static int sum(int a, int b)
+public static int sum(int x, int y)
 {
-    int sum=a+b;
+     int sum=x+y;
     return sum;
 }
 }
